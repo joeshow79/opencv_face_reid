@@ -31,5 +31,6 @@ OPENCV_PYTHON3_INSTALL_PATH=$cwd/OpenCV-$cvVersion-py3/lib/python3.5/site-packag
     -DENABLE_CXX11=ON \
       -D BUILD_EXAMPLES=ON ..
 
-#Run demo
+#Run demo  
+
 xpython ./faceid.py -d models/fd -e models/fr/face-reidentification-retail-0095 -f models/fas/ feathernetB -m img/ir_small.png -p img/depth_revert.png
