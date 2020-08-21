@@ -1,15 +1,15 @@
-# opencv_face_reid
+## opencv_face_reid
 
-# Install OpenVINO
+## Install OpenVINO
 
 https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html#install-openvino
 
 
-# Build OpenCV4 on Ubuntu16.04
+## Build OpenCV4 on Ubuntu16.04
 
 https://www.learnopencv.com/install-opencv-4-on-ubuntu-16-04/
 
-# Build OpenCV with OpenVINO support
+## Build OpenCV with OpenVINO support
 
 https://github.com/opencv/opencv/wiki/Intel%27s-Deep-Learning-Inference-Engine-backend#linux
 
@@ -31,6 +31,6 @@ OPENCV_PYTHON3_INSTALL_PATH=$cwd/OpenCV-$cvVersion-py3/lib/python3.5/site-packag
     -DENABLE_CXX11=ON \
       -D BUILD_EXAMPLES=ON ..
 
-# Run demo  
+## Run demo  
 
 python ./faceid.py -d models/fd -e models/fr/face-reidentification-retail-0095 -f models/fas/ feathernetB -m img/ir_small.png -p img/depth_revert.png
